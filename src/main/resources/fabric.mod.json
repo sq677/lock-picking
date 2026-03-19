@@ -17,13 +17,13 @@
 
 	"entrypoints": {
 		"main": [
-			"net.skittle.lockpicking.Lockpicking"
+			"net.sq.lockpicking.Lockpicking"
 		],
 		"client": [
-			"net.skittle.lockpicking.LockpickingClient"
+			"net.sq.lockpicking.LockpickingClient"
 		],
 		"fabric-datagen": [
-			"net.skittle.lockpicking.LockpickingDataGenerator"
+			"net.sq.lockpicking.LockpickingDataGenerator"
 		]
 	},
 

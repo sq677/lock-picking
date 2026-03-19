@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.skittle.lockpicking.mixin",
+	"package": "net.sq.lockpicking.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"AnvilScreenHandlerMixin",
