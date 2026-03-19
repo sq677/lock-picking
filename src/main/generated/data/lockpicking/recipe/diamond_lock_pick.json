@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "  C",
+    " CC",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "lockpicking:diamond_lock_pick"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "itemGroup.lockpicking": "Lockpicking",
+
+  "item.lockpicking.copper_lock_pick": "Copper Lock Pick",
+  "item.lockpicking.iron_lock_pick": "Iron Lock Pick",
+  "item.lockpicking.golden_lock_pick": "Golden Lock Pick",
+  "item.lockpicking.diamond_lock_pick": "Diamond Lock Pick",
+  "item.lockpicking.netherite_lock_pick": "Netherite Lock Pick",
+  "item.lockpicking.bastion_lock_key": "Treasure Key",
+
+  "item.lockpicking.copper_lock_item": "Copper Lock",
+  "item.lockpicking.iron_lock_item": "Iron Lock",
+  "item.lockpicking.golden_lock_item": "Golden Lock",
+  "item.lockpicking.diamond_lock_item": "Diamond Lock",
+  "item.lockpicking.netherite_lock_item": "Netherite Lock",
+
+  "enchantment.lockpicking.precision": "Precision"
+}

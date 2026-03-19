@@ -1,0 +1,39 @@
+{
+  "parent": "lockpicking:main/root",
+  "criteria": {
+    "has_sharp_pick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#lockpicking:lockpicks",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:sharpness",
+                  "levels": 5
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Enchant a lockpick with Sharpness V.",
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "lockpicking:copper_lock_pick"
+    },
+    "title": "The Sharpest Tool in the Shed"
+  },
+  "requirements": [
+    [
+      "has_sharp_pick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

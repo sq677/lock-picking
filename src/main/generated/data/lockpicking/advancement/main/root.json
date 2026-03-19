@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "obtained_lockpick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#lockpicking:lockpicks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/chiseled_stone_bricks.png",
+    "description": "Craft or obtain your first lock pick",
+    "icon": {
+      "count": 1,
+      "id": "lockpicking:copper_lock_pick"
+    },
+    "title": "Lock picking"
+  },
+  "requirements": [
+    [
+      "obtained_lockpick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

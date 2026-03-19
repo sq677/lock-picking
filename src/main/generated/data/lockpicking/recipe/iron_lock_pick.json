@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "  C",
+    " CC",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "lockpicking:iron_lock_pick"
+  }
+}

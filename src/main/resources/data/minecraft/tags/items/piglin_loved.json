@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "lockpicking:golden_lock_pick",
+    "lockpicking:golden_lock_item"
+  ]
+}

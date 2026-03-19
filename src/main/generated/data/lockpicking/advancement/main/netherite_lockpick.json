@@ -1,0 +1,30 @@
+{
+  "parent": "lockpicking:main/root",
+  "criteria": {
+    "has_netherite_lockpick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lockpicking:netherite_lock_pick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Upgrade a diamond lockpick to netherite using a smithing table",
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "lockpicking:netherite_lock_pick"
+    },
+    "title": "Master Locksmith"
+  },
+  "requirements": [
+    [
+      "has_netherite_lockpick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

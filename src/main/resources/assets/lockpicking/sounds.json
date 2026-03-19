@@ -1,0 +1,39 @@
+{
+  "lock_turn": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "lockpicking:lock_turn",
+        "stream": false
+      }
+    ]
+  },
+  "lock_on": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "lockpicking:lock_on",
+        "stream": false
+      }
+    ]
+  },
+  "picking_lock": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "lockpicking:picking_lock",
+        "volume": 2.0,
+        "stream": false
+      }
+    ]
+  },
+  "lock_off": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "lockpicking:lock_off",
+        "stream": false
+      }
+    ]
+  }
+}

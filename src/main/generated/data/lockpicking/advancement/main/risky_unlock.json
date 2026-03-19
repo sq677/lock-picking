@@ -1,0 +1,26 @@
+{
+  "parent": "lockpicking:main/root",
+  "criteria": {
+    "risky_unlock": {
+      "trigger": "lockpicking:risky_unlock"
+    }
+  },
+  "display": {
+
+    "description": "Unlock a chest while a guard is nearby",
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "lockpicking:iron_lock_pick"
+    },
+    "title": {
+      "translate": "Sleight of hand, nothing in my pockets!"
+    }
+  },
+  "requirements": [
+    [
+      "risky_unlock"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

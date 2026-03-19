@@ -1,0 +1,9 @@
+{
+  "values": [
+    "lockpicking:copper_lock_pick",
+    "lockpicking:iron_lock_pick",
+    "lockpicking:golden_lock_pick",
+    "lockpicking:diamond_lock_pick",
+    "lockpicking:netherite_lock_pick"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"package": "net.skittle.lockpicking.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AnvilScreenHandlerMixin",
+		"ChestBlockEntityMixin",
+		"ChestInteractionMixin",
+		"ServerPlayerInteractionManagerMixin",
+		"ChestBlockMixin",
+		"ChestBlockRedstoneMixin"
+	],
+	"client": [
+		"AdvancementToastMixin",
+		"AdvancementWidgetMixin",
+		"TitleScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
