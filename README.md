@@ -16,8 +16,24 @@ Simply right click on the locked chest _with lockpick in your hand_, and the loc
 Then _hold_ the right mouse button and drag it clockwise.\
 ![Lockpicking process](https://cdn.modrinth.com/data/cached_images/7a216f35b8784033f8351b6b19a893cb4c8e9621.gif)\
 The better lock you are trying to open, the thinner will be the line on which you should drag the cursor.
+
 </details>
 
+<details>
+<summary>World Exploration</summary>
+
+> **Locked chests can appear in villages**\
+Chests in regular village houses have copper locks \
+![](https://cdn.modrinth.com/data/cached_images/3b2591d2517a57e2493d5f85c8861a3c9b1ffae3.png)
+
+
+> Chests in blacksmiths have iron locks \
+![](https://cdn.modrinth.com/data/cached_images/5a69cff39a53a70eaa5f7514e80db542e8476220.png)
+
+> **Locked chests can also appear in other structures**\
+The most valuable chests in bastions require a Treasure Key dropped by Piglin Brutes
+![](https://cdn.modrinth.com/data/cached_images/e885dd124aee9587d91531de5cf3c8cb37090f1b.png)
+</details>
 
 <details>
 <summary>Redstone features</summary>
@@ -39,4 +55,5 @@ The better lock you are trying to open, the thinner will be the line on which yo
 ![Guard Villagers inter](https://cdn.modrinth.com/data/cached_images/65b38d42fad02a6e6538434842bd068b2259aa57.gif)
 
 </details>
+
 
