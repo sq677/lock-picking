@@ -101,10 +101,11 @@ public class BastionLockEntity extends LockEntity {
         }
 
         if (!this.getWorld().isClient) {
-            if (this.chestPos == null) {
-                this.discard();
+            if (this.discardIfChestRemoved()) {
                 return;
             }
+
+            this.updatePositionFromChest();
 
             if (this.discardDelay >= 0) {
                 Lockpicking.LOGGER.info("[SERVER] Discard delay countdown: " + this.discardDelay);

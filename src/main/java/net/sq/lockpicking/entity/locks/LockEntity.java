@@ -104,10 +104,7 @@ public abstract class LockEntity extends Entity {
     @Override
     public void tick() {
         if (!this.getWorld().isClient) {
-            if (this.getChestPos() == null) {
-                this.discard();
-                return;
-            }
+            if (discardIfChestRemoved()) return;
 
             BlockState state = this.getWorld().getBlockState(this.getChestPos());
             boolean isStillChest = state.getBlock() instanceof ChestBlock;
@@ -124,6 +121,35 @@ public abstract class LockEntity extends Entity {
             } else if (isStillChest) {
                 updatePosition(state);
             }
+        }
+    }
+
+    protected boolean discardIfChestRemoved() {
+        BlockPos chestPos = this.getChestPos();
+        if (chestPos == null) {
+            this.discard();
+            return true;
+        }
+
+        BlockState state = this.getWorld().getBlockState(chestPos);
+        if (!(state.getBlock() instanceof ChestBlock) || this.getWorld().getBlockEntity(chestPos) == null) {
+            LockEntityManager.notifyRemoval(chestPos);
+            this.discard();
+            return true;
+        }
+
+        return false;
+    }
+
+    protected void updatePositionFromChest() {
+        BlockPos chestPos = this.getChestPos();
+        if (chestPos == null) {
+            return;
+        }
+
+        BlockState state = this.getWorld().getBlockState(chestPos);
+        if (state.getBlock() instanceof ChestBlock) {
+            updatePosition(state);
         }
     }
 

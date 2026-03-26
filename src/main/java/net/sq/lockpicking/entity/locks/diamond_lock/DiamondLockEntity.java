@@ -178,10 +178,11 @@ public class DiamondLockEntity extends LockEntity {
         }
 
         if (!this.getWorld().isClient) {
-            if (this.chestPos == null) {
-                this.discard();
+            if (this.discardIfChestRemoved()) {
                 return;
             }
+
+            this.updatePositionFromChest();
 
             if (this.isOpen()) {
                 return;
