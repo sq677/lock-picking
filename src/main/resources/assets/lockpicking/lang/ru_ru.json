@@ -1,0 +1,18 @@
+﻿{
+  "itemGroup.lockpicking": "Lockpicking",
+
+  "item.lockpicking.copper_lock_pick": "Медная отмычка",
+  "item.lockpicking.iron_lock_pick": "Железная отмычка",
+  "item.lockpicking.golden_lock_pick": "Золотая отмычка",
+  "item.lockpicking.diamond_lock_pick": "Алмазная отмычка",
+  "item.lockpicking.netherite_lock_pick": "Незеритовая отмычка",
+  "item.lockpicking.bastion_lock_key": "Ключ от сокровищ",
+
+  "item.lockpicking.copper_lock_item": "Медный замок",
+  "item.lockpicking.iron_lock_item": "Железный замок",
+  "item.lockpicking.golden_lock_item": "Золотой замок",
+  "item.lockpicking.diamond_lock_item": "Алмазный замок",
+  "item.lockpicking.netherite_lock_item": "Незеритовый замок",
+
+  "enchantment.lockpicking.precision": "Точность"
+}
